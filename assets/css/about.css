@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ABOUT SECTION STYLES */
+main{
+    display: flex;
+    padding: 0px 200px 64px 200px;
+    
+}
+
+.about-image{
+    height: 100%;
+    width: 100%;
+}
+
+.about-image img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 980px) {
+   
+    .about{
+        padding: 100px 50px;
+    }
+
+} 
+
+@media (max-width: 900px) {
+    
+    
+    .about{
+        padding: 100px 50px;
+    }
+    
+   
+}
+
+@media (max-width: 690px) {
+    .about{
+        padding: 100px 50px;
+    }
+}
