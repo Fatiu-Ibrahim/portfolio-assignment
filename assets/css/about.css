@@ -5,20 +5,28 @@
 }
 
 /* ABOUT SECTION STYLES */
-main{
-    display: flex;
-    padding: 0px 200px 64px 200px;
-    
+
+.about{
+    padding: 100px 200px;
+    transition: 0.3s ease;
+
 }
 
 .about-image{
-    height: 100%;
+    height: 200px;
     width: 100%;
 }
 
 .about-image img{
     height: 100%;
     width: 100%;
+}
+
+.about-me{
+    margin-top: 20px;
+    line-height: 1.5;
+    color: rgb(36, 69, 129);
+    font-size: 17px;
 }
 
 @media (max-width: 980px) {
