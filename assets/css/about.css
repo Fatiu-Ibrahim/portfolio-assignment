@@ -1,54 +1,52 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* ABOUT SECTION STYLES */
-
-.about{
-    padding: 100px 200px;
-    transition: 0.3s ease;
-
+body,
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
 }
 
-.about-image{
-    height: 200px;
-    width: 100%;
+.about {
+  padding: 100px 200px;
+  transition: 0.3s ease;
 }
 
-.about-image img{
-    height: 100%;
-    width: 100%;
+.about-image {
+  height: 200px;
+  width: 100%;
 }
 
-.about-me{
-    margin-top: 20px;
-    line-height: 1.5;
-    color: rgb(36, 69, 129);
-    font-size: 17px;
+.about-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.about-me {
+  margin-top: 20px;
+  line-height: 1.5;
+  color: rgb(36, 69, 129);
+  font-size: 17px;
 }
 
 @media (max-width: 980px) {
-   
-    .about{
-        padding: 100px 50px;
-    }
-
-} 
+  .about {
+    padding: 100px 50px;
+  }
+}
 
 @media (max-width: 900px) {
-    
-    
-    .about{
-        padding: 100px 50px;
-    }
-    
-   
+  .about {
+    padding: 100px 50px;
+  }
 }
 
 @media (max-width: 690px) {
-    .about{
-        padding: 100px 50px;
-    }
+  .about {
+    padding: 100px 50px;
+  }
 }

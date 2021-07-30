@@ -1,89 +1,128 @@
 /* RESET DEFAULT STYLES */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
-h1{
-    color: black;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-html,body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/* MAIN STYLING */
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
 }
 
+a {
+  color: #333;
+  text-decoration: none;
+}
 
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Navbar */
+#navbar {
+  background: #172974;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+/* 
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #174e74;
+  color: #746217;
+} */
 
 /* MAIN SECTION */
-main{
-    display: flex;
-    padding: 64px 200px;
-    transition: 0.3s ease;
+main {
+  display: flex;
+  padding: 64px 200px;
+  transition: 0.3s ease;
 }
 
 /* INTRO SECTION */
-.info{
-    width: 30%;
-    text-align: center;
-    color: rgb(11, 39, 92);
-
+.info {
+  width: 30%;
+  text-align: center;
+  color: rgb(11, 39, 92);
 }
-.info h1{
-    padding-bottom: 40px;
-    font-size: xx-large;
-}
-
-.info P{
-    font-size: 18px;
+.info h1 {
+  padding-bottom: 40px;
+  font-size: xx-large;
 }
 
-.my-image{
-    width: 70%;
+.info P {
+  font-size: 18px;
 }
 
-.my-image img{
-    width: 100%;
-    height: 100%;
+.my-image {
+  width: 70%;
+}
+
+.my-image img {
+  width: 100%;
+  height: 100%;
 }
 
 /* MEDIA QUERY */
 
 @media (max-width: 980px) {
-   
-    main{
-        padding: 100px 20px;
-    }
-
-} 
+  main {
+    padding: 100px 20px;
+  }
+}
 
 @media (max-width: 900px) {
-    
-    /* MAIN SECTION */
-    main{
-        display: flex;
-        padding: 64px 50px;
-    }
-    
-   
+  /* MAIN SECTION */
+  main {
+    display: flex;
+    padding: 64px 50px;
+  }
 }
 
 @media (max-width: 690px) {
-    main{
-        flex-direction: column;
-    }
-    .info{
-        width: 100%;
-        text-align: center;
-        color: rgb(11, 39, 92);
-    
-    }
-    
-    .my-image{
-        width: 100%;
-        margin-top: 50px;
-    }
-    
-   
+  main {
+    flex-direction: column;
+  }
+  .info {
+    width: 100%;
+    text-align: center;
+    color: rgb(11, 39, 92);
+  }
+
+  .my-image {
+    width: 100%;
+    margin-top: 50px;
+  }
 }

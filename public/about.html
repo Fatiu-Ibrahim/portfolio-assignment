@@ -1,52 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS STYLES -->
-    <link rel="stylesheet" href="./../assets/css/navbar.css">
-    <link rel="stylesheet" href="./../assets/css/about.css">
+    <link rel="stylesheet" href="./../assets/css/navbar.css" />
+    <link rel="stylesheet" href="./../assets/css/about.css" />
+    <link rel="stylesheet" href="./../assets/css/footer.css" />
+    <link rel="stylesheet" href="./../assets/css/index.css" />
     <!-- FONT AWESOME ICONS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
     <title>About Me</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- NAVBAR MENU -->
     <header>
-        <nav>
-            <div class="logo-wrapper">
-                <a href="#" class="logo">Sphider Codes</a>
+      <nav id="navbar">
+        <div class="logo-wrapper">
+          <div class="logo">
+            <div class="img">
+              <img src="../assets/img/logo.png" alt="spider-icon" />
             </div>
-            <div class="nav-items" id="nav-item-wrapper">
-                <a href="./../index.html" class="nav-links">Home</a>
-                <a href="./skills.html" class="nav-links">Skills</a>
-                <a href="#" class="nav-links">About</a>
-                <a href="./contact.html" class="nav-links">Contact</a>
-            </div>
-            <div class="hamburger-wrapper" id="menu-toggle" onclick="toggleNavbar()">
-                <i class="hamburger fas fa-bars"></i>
-            </div>
-        </nav>
+            <div class="text">CODES</div>
+          </div>
+          <div class="tagline">i make web-apps !</div>
+        </div>
+        <div class="nav-items" id="nav-item-wrapper">
+          <a class="nav-links" href="../index.html">Home</a>
+          <a href="./skills.html" class="nav-links">Skill Set</a>
+          <a href="#" class="current">About Me</a>
+          <a href="./contact.html" class="nav-links">Contact Me</a>
+        </div>
+        <div
+          class="hamburger-wrapper"
+          id="menu-toggle"
+          onclick="toggleNavbar()"
+        >
+          <i class="hamburger fas fa-bars"></i>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <div class="about">
-            <!-- ABOUT IMAGE -->
-            <section class="about-image">
-                <img src="./../assets/img/about-image.svg" alt="about illustration">
-            </section>
-            <!-- ABOUT DESCRIPTION -->
-            <section class="about-me">
-                <p>IBRAHIM Fatiu Opeyemi, is a junior developer 
-                    <br>with TIIDElab pre-fellowship for Cohort#3
-                    <br>
-                </p>
-            </section>
-        </div>
+      <section class="my-image">
+        <img
+          src="../assets/img/about.jpg"
+          alt="Standing at the office"
+        />
+      </section>
+      <section class="info">
+
+      </section>
+      <!-- <div class="about">
+        
+        <section class="about-image">
+          <img src="./../assets/img/about-image.svg" alt="about illustration" />
+        </section>
+        
+        <section class="about-me">
+          <p>
+            IBRAHIM Fatiu Opeyemi, is a junior developer <br />with TIIDElab
+            pre-fellowship for Cohort#3
+            <br />
+          </p>
+        </section>
+      </div> -->
     </main>
+    <footer class="footer">
+      <div class="icons">
+        <!-- <a href="your link here"> -->
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <!-- <a href="your link here"> -->
+          <i class="fab fa-twitter"></i>
+        </a>
+        <!-- <a href="your link here"> -->
+          <i class="fab fa-instagram"></i>
+        </a>
+        <!-- <a href="your link here"> -->
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      
+    </footer>
 
     <!-- HAMBURGER SCRIPT-->
     <script src="./../assets/js/hamburger.js"></script>
-</body>
+  </body>
 </html>
