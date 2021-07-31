@@ -8,6 +8,7 @@
 /* Navbar */
 #navbar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 20px 200px;
   background: #172974;
@@ -59,13 +60,6 @@
 .logo-wrapper .logo {
   display: flex;
 }
-/* 
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 200px;
-  background-color: rgb(36, 69, 129);
-} */
 
 /* hide hamburger by default on bigscreen */
 
@@ -92,7 +86,7 @@ nav {
 /* MEDIA QUERY */
 
 @media (max-width: 980px) {
-  nav {
+  #nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 20px;
@@ -100,7 +94,7 @@ nav {
 }
 
 @media (max-width: 900px) {
-  nav {
+  #nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
@@ -126,6 +120,10 @@ nav {
 
   .nav-links {
     text-align: right;
+  }
+  #navbar .logo-wrapper .tagline {
+    padding-left: 6px;
+    color: cornflowerblue;
   }
 }
 
@@ -133,7 +131,7 @@ nav {
   nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 20px 30px;
   }
 
   .hamburger-wrapper {
@@ -156,5 +154,13 @@ nav {
 
   .nav-links {
     text-align: right;
+  }
+
+  #navbar {
+    padding: 20px 60px;
+  }
+  #navbar .logo-wrapper .tagline {
+    padding-left: 4px;
+    color: cornflowerblue;
   }
 }
