@@ -13,6 +13,14 @@ html {
 a {
   text-decoration: none;
 }
+#navbar {
+  background: #172974;
+}
+.nav-items .nav-links:hover {
+  background-color: cornflowerblue;
+  color: #535420;
+  border-radius: 2px;
+}
 
 .skills {
   width: 100%;

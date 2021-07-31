@@ -29,13 +29,21 @@ p {
 
 /* Navbar */
 #navbar {
-  background: #172974;
+  background: #0f6243;
   color: #fff;
   overflow: auto;
 }
-
+.nav-items .nav-links:hover {
+  background-color: #5abb76;
+  color: #535420;
+  border-radius: 2px;
+}
 #navbar a {
   color: #fff;
+}
+#showcase {
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 600px;
 }
 /* 
 #navbar h1 {
@@ -65,11 +73,11 @@ p {
 } */
 
 /* MAIN SECTION */
-main {
+/* main {
   display: flex;
   padding: 64px 200px;
   transition: 0.3s ease;
-}
+} */
 
 /* INTRO SECTION */
 .info {
