@@ -63,3 +63,10 @@ a {
     padding: 100px 50px;
   }
 }
+.footer {
+  background: #172974;
+  padding: 20px;
+}
+.footer .icons {
+  color: #fff;
+}

@@ -79,6 +79,12 @@ p {
   transition: 0.3s ease;
 } */
 
+.footer .icons {
+  color: #d5bf52;
+}
+.footer {
+  background: #0f6243;
+}
 /* INTRO SECTION */
 .info {
   width: 30%;

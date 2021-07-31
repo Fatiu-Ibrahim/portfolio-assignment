@@ -19,6 +19,14 @@ html {
   border-radius: 2px;
 }
 
+.footer {
+  background: #172974;
+  padding: 20px;
+}
+.footer .icons {
+  color: #fff;
+}
+
 a {
   text-decoration: none;
 }

@@ -2,18 +2,16 @@
   text-align: center;
   padding: 3px;
   font-size: large;
-  background: #172974;
-  color: #fff;
+  color: #d5bf52;
 }
 
 .footer .icons {
   display: flex;
   justify-content: space-evenly;
   margin: 20px;
-  color: #fff;
 }
 
-.footer .icons a i {
+/* .footer .icons a i {
   text-decoration: none;
-  color: #fff;
-}
+  color: #d5bf52;
+} */
