@@ -75,6 +75,10 @@ p {
   background: url("../img/showcase.jpg") no-repeat center center/cover;
   height: 600px;
 }
+#showcase.filter {
+  -webkit-filter: opacity(59%);
+  filter: opacity(59%);
+}
 
 #showcase .container {
   color: #fff;

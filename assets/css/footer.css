@@ -2,7 +2,7 @@
   text-align: center;
   padding: 3px;
   font-size: large;
-  color: #d5bf52;
+  /* color: #d5bf52; */
 }
 
 .footer .icons {
@@ -11,7 +11,7 @@
   margin: 20px;
 }
 
-/* .footer .icons a i {
+.footer .icons a i {
   text-decoration: none;
   color: #d5bf52;
-} */
+}
