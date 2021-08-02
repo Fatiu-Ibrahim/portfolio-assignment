@@ -139,6 +139,11 @@ p {
 .footer {
   background: #0f6243;
 }
+
+.footer .icons a i {
+  text-decoration: none;
+  color: #d5bf52;
+}
 /* INTRO SECTION */
 .info {
   width: 30%;

@@ -27,24 +27,41 @@ html {
   color: #fff;
 }
 
+.footer .icons a i:hover {
+  color: greenyellow;
+  border-radius: 2px;
+}
+span {
+  color: #d5bf52;
+}
+
+h1 {
+  padding-top: 30px;
+}
+
 a {
   text-decoration: none;
 }
-.info {
+.my-info {
+  padding-left: 50px;
   width: 50%;
-  text-align: center;
-  color: rgb(11, 39, 92);
+  text-align: left;
+  color: white;
 }
-.info h1 {
+.my-info h1 {
   padding-bottom: 40px;
   font-size: xx-large;
 }
 
-.info P {
+.my-info P {
   font-size: 18px;
 }
 
 .my-image {
+  width: 50%;
+}
+
+.my-info {
   width: 50%;
 }
 
@@ -54,7 +71,9 @@ a {
 }
 
 .about {
-  padding: 100px 200px;
+  display: flex;
+  background: #3a4b80;
+  padding: 50px 50px;
   transition: 0.3s ease;
 }
 
@@ -77,21 +96,25 @@ a {
 
 @media (max-width: 980px) {
   .about {
-    padding: 100px 50px;
+    padding: 50px 25px;
   }
 }
 
 @media (max-width: 900px) {
   .about {
-    padding: 100px 50px;
+    padding: 50px 25px;
   }
 }
 
 @media (max-width: 690px) {
   .about {
-    padding: 100px 50px;
+    padding: 50px 25px;
   }
 }
 .footer .icons {
+  color: #fff;
+}
+.footer .icons a i {
+  text-decoration: none;
   color: #fff;
 }

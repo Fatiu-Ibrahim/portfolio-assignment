@@ -125,3 +125,7 @@ textarea {
 .footer .icons {
   color: #fff;
 }
+.footer .icons a i {
+  text-decoration: none;
+  color: #fff;
+}
