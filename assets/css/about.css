@@ -39,6 +39,10 @@ h1 {
   padding-top: 30px;
 }
 
+h2 {
+  padding-top: 30px;
+}
+
 a {
   text-decoration: none;
 }
@@ -49,7 +53,7 @@ a {
   color: white;
 }
 .my-info h1 {
-  padding-bottom: 40px;
+  padding-bottom: 25px;
   font-size: xx-large;
 }
 
