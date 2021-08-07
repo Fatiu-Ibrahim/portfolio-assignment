@@ -129,3 +129,10 @@ textarea {
   text-decoration: none;
   color: #fff;
 }
+footer {
+  background: #172974;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
